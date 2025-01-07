@@ -18,7 +18,7 @@ int	ft_putpointer(void *ptr)
 	int					count;
 
 	if (ptr == NULL)
-		return (ft_putstr("0x0"));
+		return (ft_putstr("(nil)"));
 	address = (unsigned long long)ptr;
 	count = 0;
 	count += ft_putstr("0x");
